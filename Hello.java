@@ -47,10 +47,26 @@ class Hello {
 
         // type promotion
 
-        byte a = 10;
-        byte b = 20;
+        // byte a = 10;
+        // byte b = 20;
 
-        int result = a * b;
+        // int result = a * b;
+        // System.out.println(result);
+
+        // asignment opertors
+
+        int num1 = 7;
+        // int num2 = 5;
+        // int result = num1 % num2;
+
+        // num1 = num1 + 2;
+        // num1 *= 2;
+        // num1++;
+        // ++num1;
+
+        // int result = ++num1; //increment and then fecth the value
+        int result = num1++; // fetch the value and then increment
+
         System.out.println(result);
 
     }
