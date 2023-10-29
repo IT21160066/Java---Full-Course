@@ -65,9 +65,9 @@ class Hello {
         // ++num1;
 
         // int result = ++num1; //increment and then fecth the value
-        int result = num1++; // fetch the value and then increment
+        // int result = num1++; // fetch the value and then increment
 
-        System.out.println(result);
+        // System.out.println(result);
 
     }
 }
