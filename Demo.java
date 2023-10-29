@@ -16,5 +16,16 @@ public class Demo {
 
         // conditional statements
 
+        int x = 8;
+        int y = 5;
+        int z = 7;
+
+        if (x > y)
+            System.out.println("Hello");
+        if (x > z)
+            System.out.println("See you");
+        else
+            System.out.println("Bye");
+
     }
 }
