@@ -55,7 +55,7 @@ class Hello {
 
         // asignment opertors
 
-        int num1 = 7;
+        // int num1 = 7;
         // int num2 = 5;
         // int result = num1 % num2;
 
@@ -69,5 +69,31 @@ class Hello {
 
         // System.out.println(result);
 
+        // double x = 8.8;
+        // int y = 6;
+
+        // int a = 8;
+        // int b = 6;
+
+        // boolean result = x != y && a > b;
+        // System.out.println(result);
+
+        // int x = 7;
+        // int y = 5;
+
+        // int a = 5;
+        // int b = 9;
+
+        // boolean result = x < y || a < b;
+        // System.out.println(!result);
+
+        int x = 2;
+        if(x  > 10){
+            System.out.println("Hello");
+        }else if(x < 4){
+            System.out.println("Wow");
+        } else{
+            System.out.println("Bye");
+        }
     }
 }
