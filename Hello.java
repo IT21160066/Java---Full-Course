@@ -88,12 +88,15 @@ class Hello {
         // System.out.println(!result);
 
         int x = 2;
-        if(x  > 10){
+        int y = 7;
+        int z = 5;
+
+        if(y  > x)
             System.out.println("Hello");
-        }else if(x < 4){
+        else if(x > z)
             System.out.println("Wow");
-        } else{
+        else
             System.out.println("Bye");
-        }
+        
     }
 }
