@@ -87,16 +87,38 @@ class Hello {
         // boolean result = x < y || a < b;
         // System.out.println(!result);
 
-        int x = 2;
-        int y = 7;
-        int z = 5;
+        // int x = 2;
+        // int y = 7;
+        // int z = 5;
 
-        if(y  > x)
-            System.out.println("Hello");
-        else if(x > z)
-            System.out.println("Wow");
-        else
-            System.out.println("Bye");
+        // if(y  > x)
+        //     System.out.println("Hello");
+        // else if(x > z)
+        //     System.out.println("Wow");
+        // else
+        //     System.out.println("Bye");
+
+        // int number = 4;
+        // int result = 0 ;
+
+        // result = number % 2 == 0 ? 10 : 20;
+        // System.out.println(result);
+
+        int number = 6;
+        switch (number) {
+            case 1:
+                System.out.println("Sunday");
+                break;
+            case 2:
+                System.out.println("Monday");
+                break;
+            case 3:
+                System.out.println("Tuesday");
+                break;
+            default:
+                System.out.println("default");
+                break;
+        }
         
     }
 }
