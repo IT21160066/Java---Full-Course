@@ -104,20 +104,29 @@ class Hello {
         // result = number % 2 == 0 ? 10 : 20;
         // System.out.println(result);
 
-        int number = 6;
-        switch (number) {
-            case 1:
-                System.out.println("Sunday");
-                break;
-            case 2:
-                System.out.println("Monday");
-                break;
-            case 3:
-                System.out.println("Tuesday");
-                break;
-            default:
-                System.out.println("default");
-                break;
+        // int number = 6;
+        // switch (number) {
+        //     case 1:
+        //         System.out.println("Sunday");
+        //         break;
+        //     case 2:
+        //         System.out.println("Monday");
+        //         break;
+        //     case 3:
+        //         System.out.println("Tuesday");
+        //         break;
+        //     default:
+        //         System.out.println("default");
+        //         break;
+        // }
+
+        for(int i = 1; i <= 5; i++){
+            System.out.println("Day "+i);
+            
+            for(int j = 1; j <= 5; j++){
+                System.out.println(" " + (j + 1) + "-" + (j + 2) );
+
+            }
         }
         
     }
