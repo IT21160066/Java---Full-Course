@@ -1,23 +1,33 @@
-class Human{
+class Human {
 
-    private int age = 20;
-    private String name = "kamal";
+    private int age;
+    private String name;
 
-    public int getAge(){
+    public int getAge() {
         return age;
     }
-    public String getName(){
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getName() {
         return name;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
 }
 
 public class encapsulation {
-    
-    public static void main(String args[]){
+
+    public static void main(String args[]) {
 
         Human human1 = new Human();
-        // human1.age = 20;
-        // human1.name = "kamal";
+        human1.setAge(20);
+        human1.setName("kamal");
 
         // System.out.println(human1.age);
 
