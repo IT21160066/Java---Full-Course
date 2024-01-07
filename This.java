@@ -30,7 +30,7 @@ public class This {
 
     public static void main(String args[]) {
 
-        B b1 = new B(5);
+        // B b1 = new B(5);
     }
 
 }
