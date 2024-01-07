@@ -1,3 +1,4 @@
+
 class A extends Object {
 
     public A() {

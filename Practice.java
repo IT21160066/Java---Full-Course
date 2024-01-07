@@ -1,33 +1,34 @@
-class Mobile{
+
+class Mobile {
 
     String brand;
     int price;
     static String name;
 
-    static{
+    static {
         name = "Phone";
         System.out.println("Static block");
     }
 
-    public Mobile(){
+    public Mobile() {
         brand = "";
         price = 200;
         System.out.println("Constructor");
     }
 
-    public void show(){
-        System.out.println(brand+ " : " +price+ " : " +name);
+    public void show() {
+        System.out.println(brand + " : " + price + " : " + name);
     }
 
-    public static void show1(Mobile mobile1){
+    public static void show1(Mobile mobile1) {
         System.out.println("Static method");
-        System.out.println(mobile1.brand+ " : " +name);
+        System.out.println(mobile1.brand + " : " + name);
     }
 }
 
 public class Practice {
-    
-    public static void main(String args[]) throws ClassNotFoundException{
+
+    public static void main(String args[]) throws ClassNotFoundException {
 
         // Mobile mobile1 = new Mobile();
         // mobile1.brand = "Apple";

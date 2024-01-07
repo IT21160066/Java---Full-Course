@@ -1,3 +1,4 @@
+
 class Hello {
     public static void main(String args[]) {
 
@@ -91,12 +92,12 @@ class Hello {
         // int y = 7;
         // int z = 5;
 
-        // if(y  > x)
-        //     System.out.println("Hello");
+        // if(y > x)
+        // System.out.println("Hello");
         // else if(x > z)
-        //     System.out.println("Wow");
+        // System.out.println("Wow");
         // else
-        //     System.out.println("Bye");
+        // System.out.println("Bye");
 
         // int number = 4;
         // int result = 0 ;
@@ -106,28 +107,28 @@ class Hello {
 
         // int number = 6;
         // switch (number) {
-        //     case 1:
-        //         System.out.println("Sunday");
-        //         break;
-        //     case 2:
-        //         System.out.println("Monday");
-        //         break;
-        //     case 3:
-        //         System.out.println("Tuesday");
-        //         break;
-        //     default:
-        //         System.out.println("default");
-        //         break;
+        // case 1:
+        // System.out.println("Sunday");
+        // break;
+        // case 2:
+        // System.out.println("Monday");
+        // break;
+        // case 3:
+        // System.out.println("Tuesday");
+        // break;
+        // default:
+        // System.out.println("default");
+        // break;
         // }
 
-        for(int i = 1; i <= 5; i++){
-            System.out.println("Day "+i);
-            
-            for(int j = 1; j <= 5; j++){
-                System.out.println(" " + (j + 1) + "-" + (j + 2) );
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("Day " + i);
+
+            for (int j = 1; j <= 5; j++) {
+                System.out.println(" " + (j + 1) + "-" + (j + 2));
 
             }
         }
-        
+
     }
 }
