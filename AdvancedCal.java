@@ -1,3 +1,4 @@
+
 class AdvancedCal extends Calculator {
 
     public int multi(int n1, int n2) {
