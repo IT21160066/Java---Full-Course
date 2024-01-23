@@ -3,6 +3,30 @@ enum Status { // class
     Running, Failed, Pending, Success; // objects
 }
 
+enum Laptop {
+    Hp(200), Acer(500), Asus, Dell(1000);
+
+    private int price;
+
+    private Laptop() {
+        this(500);
+        this.price = 600;
+    }
+
+    private Laptop(int price) {
+        this.price = price;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+}
+
 public class javaenum {
 
     public static void main(String[] args) {
@@ -17,16 +41,24 @@ public class javaenum {
         // System.out.println(x + " : " + x.ordinal());
         // }
 
-        Status s = Status.Running;
+        // Status s = Status.Running;
 
-        switch (s) {
-            case Running:
-                System.out.println("Running");
-                break;
+        // switch (s) {
+        // case Running:
+        // System.out.println("Running");
+        // break;
 
-            default:
-                System.out.println("Default");
-                break;
+        // default:
+        // System.out.println("Default");
+        // break;
+        // }
+
+        // Laptop lap = Laptop.Acer;
+        // System.out.println(lap);
+        // System.out.println(lap.getPrice());
+
+        for (Laptop x : Laptop.values()) {
+            System.out.println(x + " : " + x.getPrice());
         }
 
     }
